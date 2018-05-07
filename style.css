@@ -61,6 +61,7 @@
     display: flex;
     margin-left: 100px;
     margin-right: 100px;
+    justify-content: center;
 
 }
 .block-content {
@@ -93,7 +94,12 @@
 }
 
 .description {
+    margin-top: 0px;
     margin-left: 400px;
     padding-left: 7px;
-    background-color: rgba(255, 255, 255, 0.5);
+    padding-top: 10px;
+    padding-bottom : 10px;
+    background-color: #449AFF;
+    max-height: 500px;
+    overflow: scroll;
 }
