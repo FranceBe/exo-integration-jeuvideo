@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: helvetica, arial, sans-serif;
+}
+
+.main-nav-bar {
+    background-color: #449AFF;
+}
+
+
+.main-nav-bar ul li {
+    margin-left: 15px;
+    list-style: none;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.main-nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 14px;
+    display: block;
+}
+
+.main-nav-bar ul li a:hover {
+    background-color: #0053B2;
+}
+.container-list {
+    display: flex;
+}
+.nav-bar-connect {
+    float: right;
+}
+
+#header-banner {
+    background: url('img/destiny.jpg');
+    background-position: 135px 0px;
+    height : 230px;
+    color : white;
+    margin-bottom: 20px;
+}
+
+#header-banner h1 {
+    padding-top: 190px;
+    text-align: center;
+    text-shadow: 5px 5px black;
+}
+
+
+.block-content h2 {
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 1px 1px white;
+
+}
+.block-container {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.block-content {
+    margin-left: 10px;
+    width: 400px;
+    transition: all ease-in 0.5s;
+    overflow: hidden;
+}
+
+.block-content:hover{
+    opacity: 0.3;
+}
+
+.game_one {
+    background: url("img/assassinscreed3.jpg");
+    background-repeat: no-repeat;
+    opacity: 0.95;
+}
+
+.game_two {
+    background: url("img/farcry.jpg");
+    background-repeat: no-repeat;
+    opacity: 0.95;
+}
+
+.game_three {
+    background: url("img/Destiny-2.jpg");
+    background-repeat: no-repeat;
+    opacity: 0.95;
+}
+
+.description {
+    margin-left: 400px;
+    padding-left: 7px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
